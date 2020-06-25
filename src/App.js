@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './Navbar/Navbar';
+import styled from 'styled-components';
+import Subjectpage from './Subject/Subjectpage';
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Homepage from './Homepage/Homepage';
+import Participants from './Participants/Participants';
+import Slide_Right from './Navbar/Slide_right';
+import Footer from './Footer/Footer';
+import Slide_right from './Navbar/Slide_right';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const DIV = styled.div`
+margin : 0;
+padding : 0;
+height : 100%;
+`;
+
+
+class App extends Component {
+state = {
+  slider : false
 }
-
+clickHandler = () => {
+  this.setState((prevState) => {
+  return{slider : !prevState.slider}})
+}
+  render() {
+    
+    return (
+     
+      <DIV>
+      <Router>
+      <Navbar handler={this.clickHandler} status={this.state.slider}/>
+      <Slide_right status={this.state.slider}/>
+       <Switch>
+         <Route exact path='/' component={Homepage}/>
+         <Route exact path='/Subjectpage' component={Subjectpage}/>
+         <Route exact path='/Participants' component={Participants}/>
+        </Switch>
+      </Router>
+      <Footer/>
+      </DIV>
+    )
+  }
+}
 export default App;
