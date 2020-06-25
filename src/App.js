@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import Navbar from './Navbar/Navbar';
 import styled from 'styled-components';
 import Subjectpage from './Subject/Subjectpage';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Homepage from './Homepage/Homepage';
 import Participants from './Participants/Participants';
-import Slide_Right from './Navbar/Slide_right';
 import Footer from './Footer/Footer';
 import Slide_right from './Navbar/Slide_right';
 
@@ -33,7 +32,7 @@ clickHandler = () => {
       <Navbar handler={this.clickHandler} status={this.state.slider}/>
       <Slide_right status={this.state.slider}/>
        <Switch>
-         <Route exact path='/' component={Homepage}/>
+         <Route exact path='/teacher' component={Homepage}/>
          <Route exact path='/Subjectpage' component={Subjectpage}/>
          <Route exact path='/Participants' component={Participants}/>
         </Switch>

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import logo from './logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome , faBookReader , faUser } from '@fortawesome/free-solid-svg-icons';
+import { faHome , faBookReader } from '@fortawesome/free-solid-svg-icons';
 import { Link} from "react-router-dom";
 
 const UL = styled.ul`
@@ -50,8 +50,8 @@ li1,li2{
     return (
         
         <UL status={props.status}>
-         <img src={logo} width='120' height='120'></img>
-         <li1><FontAwesomeIcon icon={faHome} /> <Link className="styledbutton" to='/Homepage'> Home </Link></li1>
+         <img src={logo} width='120' height='120' alt="pic"></img>
+         <li1><FontAwesomeIcon icon={faHome} /> <Link className="styledbutton" to='/teacher'> Home </Link></li1>
          <li2><FontAwesomeIcon icon={faBookReader} /><Link className="styledbutton" to='/Subjectpage'>Subjects </Link></li2>
         </UL>
        

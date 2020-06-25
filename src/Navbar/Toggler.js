@@ -39,7 +39,6 @@ const LINE = styled.div`
 
 export default function Toggler(props) {
     
-   const [status, setstatus] = useState(false);
     return (
         <React.Fragment>
         <TOGGLER_BOX onClick={props.handler} >

@@ -1,12 +1,11 @@
 import React , {useState} from 'react'
 import styled from 'styled-components';
-import Subject_pic from './Subject_pic';
+import Subjectpic from './Subjectpic';
 import logo1 from './Reactionenginneringlogo.jpg';
 import logo2 from './Fluidmechanicslogo.jpg';
 import logo3 from './Chemicalprocesstechnologylogo.jpg';
 import logo4 from './Heattransferlogo.jpg';
 import logo5 from './Masstransferlogo.png';
-import Footer from '../Footer/Footer';
 
 const Div1 = styled.div`
 background-color : #192a56;
@@ -74,7 +73,7 @@ const Subjectpage = () => {
                   <Div2 className = "col-md-7 col-8 ">
                     {
                       subjects.slice(start, start+1 ).map((names,index) => {
-                        return(<Subject_pic name={names.name} 
+                        return(<Subjectpic name={names.name} 
                           code={names.code} 
                           semester={names.semester}
                            credit={names.credit} 

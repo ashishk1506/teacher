@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
@@ -23,29 +23,12 @@ h3{
 }
 `;
 
-const BUTTONBTM = styled.button`
-display : block;
-background : transparent;
-opacity : 0.6;
-font-size : 0.8rem;
-box-shadow: 0 8px 6px -6px black;
-border : 10px;
-border-radius : 5px;
-min-height : 60px;
-min-width : 100%;
-transition : all 0.3s ease;
-font-weight : 600;
-&:hover{
-box-shadow : none;
-}
-`;
-
-export default function Subject_pic(props) {
+export default function Subjectpic(props) {
  
     return (
       <React.Fragment>
         <DIV className="media">
-        <img src={props.logo}></img>
+        <img src={props.logo} alt="ashish"></img>
         <div>
           <h3>{props.name} : {props.code}</h3>
           <h5>Credit : {props.credit} </h5>

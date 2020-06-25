@@ -3,7 +3,7 @@ import logo from './logo.png';
 import Toggler from './Toggler';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome , faBookReader , faUser } from '@fortawesome/free-solid-svg-icons';
+import { faHome , faBookReader } from '@fortawesome/free-solid-svg-icons';
 import {Link} from "react-router-dom";
 import '../index.css';
 
@@ -57,12 +57,12 @@ li1, li2, li3{
 export default function Navbar(props) {
     return (
         <DIV>
-        <Div><img src={logo} width='60' height='60'></img>
+        <Div><img src={logo} width='60' height='60' alt="pic"></img>
         <span>Teacher's Assessment</span>
         </Div>
          <div>
          <UL>
-         <li1><FontAwesomeIcon icon={faHome} /> <Link to='/' className="styledbutton"> Home </Link></li1>
+         <li1><FontAwesomeIcon icon={faHome} /> <Link to='/teacher' className="styledbutton"> Home </Link></li1>
          <li2><FontAwesomeIcon icon={faBookReader} /><Link to='/Subjectpage' className="styledbutton">Subjects </Link></li2>
         </UL>
          </div>
