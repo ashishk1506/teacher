@@ -1,0 +1,2 @@
+body{height:100%;margin:0;padding:0}.styledbutton{color:#192a56}.styledbutton:hover{text-decoration:none;color:#34495e;transition:all .2s ease}.styledbutton:before{content:"";position:absolute;width:0;height:0;bottom:0;left:0;background-color:#34495e;transition:all .2s ease;transform:translateX(-10px)}.styledbutton:hover:before{height:1px;border-radius:10px;width:100%;transform:translateX(0)}
+/*# sourceMappingURL=main.94ca5f61.chunk.css.map */
