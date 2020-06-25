@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/teacher/static/css/main.94ca5f61.chunk.css",
-    "main.js": "/teacher/static/js/main.3d97e3ff.chunk.js",
-    "main.js.map": "/teacher/static/js/main.3d97e3ff.chunk.js.map",
-    "runtime-main.js": "/teacher/static/js/runtime-main.582bc03f.js",
-    "runtime-main.js.map": "/teacher/static/js/runtime-main.582bc03f.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/teacher/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.390990d2.chunk.js": "/teacher/static/js/2.390990d2.chunk.js",
-    "static/js/2.390990d2.chunk.js.map": "/teacher/static/js/2.390990d2.chunk.js.map",
-    "index.html": "/teacher/index.html",
-    "precache-manifest.d0af1b4764a0e1597a74cb7f2e96cbd2.js": "/teacher/precache-manifest.d0af1b4764a0e1597a74cb7f2e96cbd2.js",
-    "service-worker.js": "/teacher/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/teacher/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.94ca5f61.chunk.css.map": "/teacher/static/css/main.94ca5f61.chunk.css.map",
-    "static/js/2.390990d2.chunk.js.LICENSE.txt": "/teacher/static/js/2.390990d2.chunk.js.LICENSE.txt",
-    "static/media/Fluidmechanicslogo.jpg": "/teacher/static/media/Fluidmechanicslogo.9ad5f25c.jpg",
-    "static/media/Heattransferlogo.jpg": "/teacher/static/media/Heattransferlogo.5ffdf3a6.jpg",
-    "static/media/Masstransferlogo.png": "/teacher/static/media/Masstransferlogo.caa56252.png",
-    "static/media/logo.png": "/teacher/static/media/logo.b4cfa887.png"
+    "main.css": "/static/css/main.94ca5f61.chunk.css",
+    "main.js": "/static/js/main.ae944e6b.chunk.js",
+    "main.js.map": "/static/js/main.ae944e6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7c0ae09a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7c0ae09a.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.39d1dae9.chunk.js": "/static/js/2.39d1dae9.chunk.js",
+    "static/js/2.39d1dae9.chunk.js.map": "/static/js/2.39d1dae9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dedd7a19f7cf4e60e766b5276287953c.js": "/precache-manifest.dedd7a19f7cf4e60e766b5276287953c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.94ca5f61.chunk.css.map": "/static/css/main.94ca5f61.chunk.css.map",
+    "static/js/2.39d1dae9.chunk.js.LICENSE.txt": "/static/js/2.39d1dae9.chunk.js.LICENSE.txt",
+    "static/media/Fluidmechanicslogo.jpg": "/static/media/Fluidmechanicslogo.9ad5f25c.jpg",
+    "static/media/Heattransferlogo.jpg": "/static/media/Heattransferlogo.5ffdf3a6.jpg",
+    "static/media/Masstransferlogo.png": "/static/media/Masstransferlogo.caa56252.png",
+    "static/media/logo.png": "/static/media/logo.b4cfa887.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.582bc03f.js",
+    "static/js/runtime-main.7c0ae09a.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.390990d2.chunk.js",
+    "static/js/2.39d1dae9.chunk.js",
     "static/css/main.94ca5f61.chunk.css",
-    "static/js/main.3d97e3ff.chunk.js"
+    "static/js/main.ae944e6b.chunk.js"
   ]
 }
